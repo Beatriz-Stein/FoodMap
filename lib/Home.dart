@@ -233,16 +233,16 @@ class _HomeState extends State<Home> {
                   height: 100,
                   child: Image.asset("assets/img/popularChurrascaria.png"),
                 ),
-Container(
-  margin: EdgeInsets.symmetric(vertical: 0, horizontal: 26),
-  width: 200,
-  height: 100,
-  decoration: BoxDecoration(
-    color: Color(0xFFECC49A),  // cor de preenchimento
-    borderRadius: BorderRadius.circular(15),
-    border: Border.all(color: Color(0xFFECC49A)),
-  ),
-),
+                Container(
+                  margin: EdgeInsets.symmetric(vertical: 0, horizontal: 26),
+                  width: 100,
+                  height: 70,
+                  decoration: BoxDecoration(
+                    color: Color(0xFFECC49A), // cor de preenchimento
+                    borderRadius: BorderRadius.circular(15),
+                    border: Border.all(color: Color(0xFFECC49A)),
+                  ),
+                ),
               ],
             ),
           ),
