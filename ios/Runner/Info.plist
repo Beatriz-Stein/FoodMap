@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Food Map</string>
+=======
+	<string>Flutter Application 1</string>
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +17,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>food_map</string>
+=======
+	<string>flutter_application_1</string>
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

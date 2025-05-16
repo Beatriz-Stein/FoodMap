@@ -41,6 +41,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.19.1"
+<<<<<<< HEAD
   crypto:
     dependency: transitive
     description:
@@ -49,6 +50,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.6"
+=======
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
   fake_async:
     dependency: transitive
     description:
@@ -57,6 +60,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.2"
+<<<<<<< HEAD
   ffi:
     dependency: transitive
     description:
@@ -65,6 +69,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+=======
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
   flutter:
     dependency: "direct main"
     description: flutter
@@ -83,6 +89,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   google_fonts:
     dependency: "direct main"
     description:
@@ -107,6 +114,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
+=======
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
   leak_tracker:
     dependency: transitive
     description:
@@ -171,6 +180,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+<<<<<<< HEAD
   path_provider:
     dependency: transitive
     description:
@@ -235,6 +245,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
+=======
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
   sky_engine:
     dependency: transitive
     description: flutter
@@ -288,6 +300,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.4"
+<<<<<<< HEAD
   typed_data:
     dependency: transitive
     description:
@@ -296,6 +309,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.0"
+=======
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
   vector_math:
     dependency: transitive
     description:
@@ -312,6 +327,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "14.3.1"
+<<<<<<< HEAD
   web:
     dependency: transitive
     description:
@@ -331,3 +347,8 @@ packages:
 sdks:
   dart: ">=3.7.2 <4.0.0"
   flutter: ">=3.27.0"
+=======
+sdks:
+  dart: ">=3.7.2 <4.0.0"
+  flutter: ">=3.18.0-18.0.pre.54"
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524

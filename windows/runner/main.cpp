@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"food_map", origin, size)) {
+=======
+  if (!window.Create(L"flutter_application_1", origin, size)) {
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

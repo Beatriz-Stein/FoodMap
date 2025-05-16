@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: food_map
+=======
+name: flutter_application_1
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -9,7 +13,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   google_fonts: ^6.1.0
+=======
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
 
 dev_dependencies:
   flutter_test:
@@ -18,6 +25,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+<<<<<<< HEAD
   assets:
     - assets/img/entrada.png
     - assets/img/comidaBrasileira.png
@@ -26,3 +34,5 @@ flutter:
     - assets/img/comidaJaponesa.png
     - assets/img/popularChurrascaria.png
             
+=======
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524

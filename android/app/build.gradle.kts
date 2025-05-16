@@ -6,7 +6,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.food_map"
+=======
+    namespace = "com.example.flutter_application_1"
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +25,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.example.food_map"
+=======
+        applicationId = "com.example.flutter_application_1"
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

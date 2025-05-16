@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "food_map",
     "short_name": "food_map",
+=======
+    "name": "flutter_application_1",
+    "short_name": "flutter_application_1",
+>>>>>>> b7a4abf5c88f9c5f991fd46a33d9a35d6ea8e524
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
