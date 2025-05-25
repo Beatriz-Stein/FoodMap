@@ -13,7 +13,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   google_fonts: ^5.0.0 
+
 
 flutter:
   uses-material-design: true
@@ -35,3 +37,4 @@ flutter:
     - assets/img/Pedro.png
     - assets/img/Marco.png
     - assets/img/Mapa.png
+

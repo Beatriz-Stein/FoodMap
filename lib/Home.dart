@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 import 'navegacao.dart' as nav; 
 import 'DetalhesCulinariaBrasileira.dart';
+
+
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -11,6 +14,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+
   TextStyle stylePoppins({
     double fontSize = 14,
     FontWeight fontWeight = FontWeight.normal,
