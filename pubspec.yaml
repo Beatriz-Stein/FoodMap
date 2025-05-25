@@ -13,7 +13,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+
+  google_fonts: ^5.0.0 
+
 
 flutter:
   uses-material-design: true
@@ -25,3 +27,14 @@ flutter:
     - assets/img/comidaItaliana.png
     - assets/img/comidaJaponesa.png
     - assets/img/popularChurrascaria.png
+    - assets/img/usuarioConfig.png
+    - assets/img/mahai.png
+    - assets/img/laBelleCusine.png
+    - assets/img/teroBrasa.png
+    - assets/img/pepe.png
+    - assets/img/FotoAvaliacaoTeroBrasa.png
+    - assets/img/AnaClara.png
+    - assets/img/Pedro.png
+    - assets/img/Marco.png
+    - assets/img/Mapa.png
+
