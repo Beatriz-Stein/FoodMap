@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'navegacao.dart' as nav;  // alias nav
+import 'navegacao.dart' as nav; 
 import 'DetalhesCulinariaBrasileira.dart';
 
 class Home extends StatefulWidget {
@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
     final larguraTela = MediaQuery.of(context).size.width;
     final larguraMaxima = 360.0;
 
-    return nav.Navegacao(   // usa o alias aqui
+    return nav.Navegacao(
       currentIndex: 0,
       child: Scaffold(
         backgroundColor: Colors.white,
@@ -41,7 +41,6 @@ class _HomeState extends State<Home> {
                   child: ListView(
                     padding: const EdgeInsets.symmetric(vertical: 40),
                     children: [
-                      // CAMPO DE PESQUISA
                       Container(
                         margin: const EdgeInsets.symmetric(horizontal: 16),
                         height: 50,
@@ -82,10 +81,7 @@ class _HomeState extends State<Home> {
                           ],
                         ),
                       ),
-
                       const SizedBox(height: 24),
-
-                      // TÍTULO
                       Text.rich(
                         TextSpan(
                           text: 'Descubra por tipo de ',
@@ -105,18 +101,12 @@ class _HomeState extends State<Home> {
                         ),
                         textAlign: TextAlign.center,
                       ),
-
                       const SizedBox(height: 16),
-
-                      // CARDS DE CULINÁRIA COMO BOTÕES
                       botaoImg("assets/img/comidaJaponesa.png", "Japonesa"),
                       botaoImg("assets/img/comidaBrasileira.png", "Brasileira"),
                       botaoImg("assets/img/comidaItaliana.png", "Italiana"),
                       botaoImg("assets/img/comidaFrancesa.png", "Francesa"),
-
                       const SizedBox(height: 24),
-
-                      // MAIS POPULARES
                       Text.rich(
                         TextSpan(
                           text: 'Mais populares ',
@@ -136,10 +126,7 @@ class _HomeState extends State<Home> {
                         ),
                         textAlign: TextAlign.center,
                       ),
-
                       const SizedBox(height: 10),
-
-                      // IMAGEM POPULAR
                       Container(
                         margin: const EdgeInsets.symmetric(horizontal: 16),
                         height: 120,
@@ -153,8 +140,6 @@ class _HomeState extends State<Home> {
                       ),
 
                       const SizedBox(height: 10),
-
-                      // DESCRIÇÃO POPULAR
                       Container(
                         margin: const EdgeInsets.symmetric(horizontal: 16),
                         padding: const EdgeInsets.all(12),
@@ -240,7 +225,6 @@ Widget botaoImg(String caminhoImagem, String rotulo) {
             ),
             child: Stack(
               children: [
-                // EFEITO DE ESCURECER NO HOVER
                 AnimatedOpacity(
                   opacity: isHovered ? 0.4 : 0.0,
                   duration: const Duration(milliseconds: 200),
@@ -251,7 +235,6 @@ Widget botaoImg(String caminhoImagem, String rotulo) {
                     ),
                   ),
                 ),
-                // TEXTO CENTRAL
                 Center(
                   child: Text(
                     rotulo,
